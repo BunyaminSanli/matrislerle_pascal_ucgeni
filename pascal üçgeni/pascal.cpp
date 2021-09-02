@@ -6,7 +6,7 @@ int main() {
 	// olusturulacak matris boyutu alinir
 	int gir;
 	cin >> gir;
-	int matris[gir][gir];	//alınan deger kadar bir matris olusturulur
+	int matris[gir][gir];	//alÄ±nan deger kadar bir matris olusturulur
 	
 	
 	for(int i=0; i<=gir-1; i++)	//dongu ile satir ve sutunlar hesaplanir
@@ -26,6 +26,6 @@ int main() {
 		cout << "\n";	
 	}
 	
-	
+	cin.get();
 	return 0;
 }
